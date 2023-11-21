@@ -22,7 +22,10 @@
   --submit-button-background-color: #3867d6;
   --submit-button-color: #ffffff;
   --graph-opacity: 1;
-  --graph-filter: none;
+  --graph-filter: none;   
+  --nav-text-color: #403e3f; 
+  --heading-text-color: #403e3f;
+  --paragraph-text-color: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -51,6 +54,9 @@
     --submit-button-color: #ffffff;
     --graph-opacity: 1;
     --graph-filter: none;
+    --nav-text-color: #d1d3d4;
+    --heading-text-color: #d1d3d4;
+    --paragraph-text-color: #ffffff;
   }
 }
 
@@ -69,29 +75,16 @@ nav.svelte-a08hsz.svelte-a08hsz {
 }
 
 nav {
-  color: #403e3f;
+  color: var(--nav-text-color);
 }
 nav a {
-  color: #403e3f;
+  color: var(--nav-text-color);
 }
 h1 {
-  color: #403e3f;
+  color: var(--heading-text-color);
 }
 p a {
-  color: #000000;
-}
-
-
-@media (prefers-color-scheme: dark) {
-  nav {
-    color: #d1d3d4;
-  }
-    nav a {
-    color: #d1d3d4;
-  }
-  p a {
-    color: #ffffff;
-  }
+  color: var(--paragraph-text-color);
 }
 
 p a {
