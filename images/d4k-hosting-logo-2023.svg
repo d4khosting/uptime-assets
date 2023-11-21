@@ -5,11 +5,11 @@
    fill: #d1d3d4;
 	}
   path {
-	 fill: #413e3e;
+	 fill: #403e3f;
 	}
 	@media (prefers-color-scheme: dark) {
 	 rect {
-    fill: #413e3e;
+    fill: #403e3f;
    }
 	 path {
     fill: #d1d3d4;
