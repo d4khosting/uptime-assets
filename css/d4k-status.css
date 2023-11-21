@@ -54,6 +54,11 @@
   }
 }
 
+body {
+  font-family: 'Atkinson Hyperlegible', Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
 nav.svelte-a08hsz.svelte-a08hsz {
   font-weight: 400; 
 }
