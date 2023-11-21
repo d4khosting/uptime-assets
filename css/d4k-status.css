@@ -54,15 +54,18 @@
   }
 }
 
-nav {
+nav.svelte-a08hsz.svelte-a08hsz {
   font-weight: 400; 
+}
+
+nav {
   color: #403e3f;
 }
 nav a {
-  color: inherit;
+  color: #403e3f;
 }
 p a {
-  color: inherit;
+  color: #000000;
 }
 
 
