@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50" height="50" version="1.1" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+ <style>
+	rect {
+   fill: #d1d3d4;
+	}
+  path {
+	 fill: #413e3e;
+	}
+	@media (prefers-color-scheme: dark) {
+	 rect {
+    fill: #413e3e;
+   }
+	 path {
+    fill: #d1d3d4;
+	 }
+	}
+ </style>
+ <g id="background">
+  <rect id="square" width="50" height="50" />
+ </g>
+ <g id="logo">
+  <path id="path-k-arm-leg" d="m41.561 19.995h8.4386l-12.222 14.361 11.636 13.758h-9.1265l-7.4287-8.2983 0.0331-10.606z" />
+  <path id="path-4k-stem" d="m25.209 48.194v-28.118l6.555 0.0055v28.113z" />
+  <path id="path-4-bowl" d="m7.937 38.209 16.118-17.111v8.9435l-6.2329 7.3103h6.2329v5.501h-11.746z" />
+  <path id="path-d-bowl" d="m24.055 19.418-16.4 17.416-0.00413-9.8393 6.9237-7.3103-6.7998-6.8218-0.11971-10.863z" />
+  <path id="path-d-stem" d="m6.5618 2.0005v34.834l-6.5618-6.9677v-27.867z" />
+ </g>
+</svg>
