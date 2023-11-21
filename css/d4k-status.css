@@ -106,6 +106,6 @@ p a:active {
     width: 75%;
   } 
   article.graph {
-    background-size: 25%;
+    background-size: 25% !important;
   }
 }
