@@ -1,4 +1,3 @@
-/* Manual test */
 :root {
   --body-background-color: #ededed;
   --body-text-color: #002626;
@@ -28,10 +27,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --body-background-color: #121212;
-    --body-text-color: #f0ffff;
-    --card-background-color: #222222;
-    --nav-background-color: #413e3e;
+    --body-background-color: #222222;
+    --body-text-color: #d1d3d4;
+    --card-background-color: #121212;
+    --nav-background-color: #403e3f;
     --nav-border-bottom-color: #222222;
     --nav-current-border-bottom-color: #5c5858;
     --card-border-color: #5c5858;
@@ -55,9 +54,37 @@
   }
 }
 
+nav {
+  font-weight: 400; 
+  color: #403e3f;
+}
+nav a {
+  color: inherit;
+}
+p a {
+  color: inherit;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  nav {
+    color: #d1d3d4;
+  }
+    nav a {
+    color: #d1d3d4;
+  }
+  p a {
+    color: #ffffff;
+  }
+}
+
+p a {
+  font-weight: bold;
+}
+
 p a:link,
 p a:visited {
-  text-decoration: underline;
+  text-decoration: underline; 
   }
 p a:hover,
 p a:focus,
